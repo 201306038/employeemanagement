@@ -17,6 +17,7 @@ if (isset($_POST["submit"])) {
   }
 }
 ?>
+<!-- Include Header & CSS -->
 <?php
 include "nav.php";
 ?>

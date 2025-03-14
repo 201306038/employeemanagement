@@ -19,6 +19,7 @@ if (isset($_POST["submit"])) {
   }
 }
 ?>
+<!-- Include Header & CSS -->
 <?php
 include "nav.php";
 ?>
@@ -78,5 +79,5 @@ include "nav.php";
       </form>
     </div>
   </div>
-
+<!-- Include Footer & JavaScripts -->
   <?php include "footer.php"; ?>

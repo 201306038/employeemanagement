@@ -50,7 +50,7 @@ include "db_conn.php";
 
 <nav class="navbar navbar-expand-lg justify-content-center fs-3 mb-5 text-white" style="background-color: #712434; color: #aba261;">
   <div class="container-fluid justify-content-center mx-auto">
-    <a class="navbar-brand" style="color:rgb(255, 255, 255);" href="index.php">SSC</a>
+    <a class="navbar-brand" style="color:rgb(255, 255, 255);" href="index.php">SSC - Employee Management Software</a>
     <button class="navbar-toggler btn-outline" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -63,10 +63,6 @@ include "db_conn.php";
           <a class="nav-link" href="employer.php" style="color: #aba261;">Employer</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>

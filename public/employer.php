@@ -1,3 +1,4 @@
+<!-- Include Header & CSS -->
 <?php include "nav.php"; ?>
 
 <div class="container">
@@ -6,6 +7,7 @@
     </div>
 
     <div class="container">
+        <!-- Message Area -->
         <?php
         if (isset($_GET["msg"])) {
             $msg = $_GET["msg"];
@@ -17,6 +19,7 @@
         ?>
         <a href="add-employee.php" class="btn btn-dark mb-3">Add New</a>
 
+        <!-- Comapanies Table -->
         <table id="myTable" class="table table-hover text-center">
             <thead class="table-dark">
                 <tr>
@@ -33,7 +36,7 @@
                 ?>
                     <tr>
                         <td>
-                            <a href="#" class="employer-link" data-bs-toggle="modal" data-bs-target="#employeeModal" data-employer-id="<?php echo $row['employer_id']; ?>">
+                            <a href="#" class="employer-link link-dark" data-bs-toggle="modal" data-bs-target="#employeeModal" data-employer-id="<?php echo $row['employer_id']; ?>">
                                 <?php echo $row["company_name"] ?>
                             </a>
                         </td>
@@ -85,5 +88,5 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 </script>
-
+<!-- Include Footer & JavaScripts -->
 <?php include "footer.php"; ?>
